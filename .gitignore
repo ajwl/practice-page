@@ -6,4 +6,4 @@ npm-debug.log
 node_modules
 _bower_components
 bower_components
-.idea/
+.idea//node_modules

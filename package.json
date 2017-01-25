@@ -1,0 +1,19 @@
+{
+  "name": "practice-page",
+  "version": "1.0.0",
+  "description": "Css, javascript and html wired up with gulp on Sinatra framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citizensadvice/frontend-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citizensadvice/frontend-test/issues"
+  },
+  "homepage": "https://github.com/citizensadvice/frontend-test#readme"
+}
