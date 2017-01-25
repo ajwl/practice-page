@@ -2,7 +2,6 @@
 
 var button = document.getElementById('menu-button');
 var menu = document.getElementById('menu');
-var body = document.querySelector('body');
 
 button.addEventListener(
     "click",
@@ -14,7 +13,6 @@ button.addEventListener(
 
 var menuAction = function(){
     toggleMenu();
-    scrollTop();
 };
 
 var toggleMenu = function(){
@@ -24,9 +22,5 @@ var toggleMenu = function(){
     else{
         menu.classList.add('hide');
     }
-};
-
-var scrollTop = function(){
-    window.scrollTop = 0;
 };
 

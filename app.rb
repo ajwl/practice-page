@@ -6,5 +6,9 @@ class App < Sinatra::Base
     erb :index, :layout => :layout
   end
 
+  post '/message' do
+    "Thanks for your exciting message"
+  end
+
 end
 

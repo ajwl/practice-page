@@ -1,0 +1,98 @@
+
+/* --- TOP SECTION --- */
+section.top {
+    background-color: #585858;
+    padding: 10% 0 0 0;
+    position: relative;
+
+}
+section.top .logobox{
+    padding: 0 10vw;
+    background-size: 9vw;
+    margin: 15% 12%;
+}
+section.top div h1 {
+    display: inline-block;
+    margin: 0;
+}
+section.top div img {
+    height: 5em;
+}
+section.top .strip {
+    background-color: #FF5E1B;
+    padding: 2% 15%;
+    bottom: 0;
+}
+section.top .strip p{
+    color: #EEEEEE;
+}
+.strip .col25 {
+    text-align: center;
+    padding: .5em 0 0 0
+}
+
+/* --- SECTIONS --- */
+
+div.infobox {
+    background-color: #F5F5F5;
+    padding: 1em;
+    max-width: 20em;
+}
+div.col66 {
+    padding: 0 1em;
+}
+
+div.col50 img{
+    width: 100%;
+}
+div.col50.text{
+    padding: 0 1em;
+}
+.contact .intro{
+    text-align: center;
+    padding: 0 30%;
+}
+.contact-form{
+    padding: 0 1em;
+}
+.contact ul {
+    padding-left: .5em;
+    list-style: none;
+}
+
+form[name='contact'] input{
+    margin-bottom: 2em;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+input[type='text'], input[type='textarea']{
+    height: 2em;
+    width: 95%;
+}
+input[type='file']{
+    display: none;
+}
+.contact-form .button{
+    color: #EEEEEE;
+    background-color: #FF5E1B;
+}
+
+.map h4{
+    margin-top: 0;
+}
+.portfolio h2{
+    margin-top: 0;
+}
+@media (max-device-width: 600px){
+    .contact .intro {
+        padding: 0
+    }
+    .portfolio .text{
+        margin-top: .5em;
+    }
+    .map h4{
+        margin-top: .5em;
+    }
+}
+

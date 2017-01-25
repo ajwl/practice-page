@@ -1,0 +1,66 @@
+/* --- HEADER --- */
+header {
+}
+header ul,
+header .menu-button {
+    display: inline-block;
+    z-index: 1;
+}
+header ul {
+    position: absolute;
+    right: 6em;
+}
+header .menu-button{
+    position: fixed;
+    right: 1em;
+    margin-top: 1em;
+    background-color: #FF5E1B;
+    padding: .7em .7em .7em 2.5em;
+    color: white;
+}
+header .menu-button:before{
+    content: "";
+    position: absolute;
+    left: .5em;
+    width: 1.5em;
+    height: .2em;
+    background: white;
+    box-shadow:
+            0 0.5em 0 0 white,
+            0 1em 0 0 white;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 3em;
+    color: white;
+}
+.menu-button hr{
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+
+@media (max-device-width: 700px){
+    header ul li {
+        margin-right: 2em;
+    }
+}
+@media (max-device-width: 620px){
+    header ul li {
+        display: block;
+        text-align: right;
+        margin-bottom: .5em;
+        text-decoration: underline solid white;
+    }
+    header ul {
+        width: 100%;
+        position: fixed;
+        background-color: #FF5E1B;
+        padding: 1.7em 6em 1em 0;
+        margin: 0;
+        right: 0;
+        text-align: center;
+    }
+}
