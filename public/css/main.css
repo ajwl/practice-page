@@ -65,7 +65,7 @@ input[type='submit']{
 .contentbox .col33 {
     flex: 0 1 33%;
 }
-@media (max-device-width: 600px){
+@media (max-width: 600px){
     .contentbox{
         display: flex;
         flex-direction: column;

@@ -40,12 +40,12 @@ header ul li {
     border: none;
 }
 
-@media (max-device-width: 700px){
+@media (max-width: 700px){
     header ul li {
         margin-right: 2em;
     }
 }
-@media (max-device-width: 620px){
+@media (max-width: 620px){
     header ul li {
         display: block;
         text-align: right;

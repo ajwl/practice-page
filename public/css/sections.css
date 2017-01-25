@@ -84,7 +84,7 @@ input[type='file']{
 .portfolio h2{
     margin-top: 0;
 }
-@media (max-device-width: 600px){
+@media (max-width: 600px){
     .contact .intro {
         padding: 0
     }
