@@ -1,12 +1,9 @@
 # practice-page
-CSS and layout
 
 Git clone the repository 
 
 Bundle install to install the required ruby gems
-```bundle install```
+`bundle install`
 
 In the console rack up up the server with this command 
-```serve```
-
-
+`serve`
